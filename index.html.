@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Розборка тракторів Яришівка — запчастини</title>
+<meta name="description" content="Продаж запчастин до тракторів МТЗ, ЮМЗ, Т-40, Т-16 і Т-25. Розборка тракторів Яришівка.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f4f0;color:#222}
+header{background:#173c25;color:white;padding:32px 16px;text-align:center}
+header h1{font-size:34px;margin:10px 0}
+header p{font-size:18px}
+nav{background:#245a35;padding:14px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold}
+.hero{background:linear-gradient(135deg,#244c30,#56844c);color:white;text-align:center;padding:55px 20px}
+.hero h2{font-size:32px}
+.hero p{font-size:19px;line-height:1.6}
+.button{display:inline-block;background:#f2bd32;color:#222;padding:14px 24px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:12px}
+.container{max-width:1100px;margin:auto;padding:30px 18px}
+h2.section-title{text-align:center;font-size:28px;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;padding:24px 18px;border-radius:12px;box-shadow:0 3px 12px #00000012;text-align:center;border-bottom:4px solid #56844c}
+.icon{font-size:45px}
+.card h3{color:#245a35}
+.card p{line-height:1.5}
+.info{background:white;padding:25px;border-radius:12px;text-align:center;line-height:1.8}
+footer{background:#173c25;color:white;text-align:center;padding:25px}
+.small{font-size:14px;color:#ddd}
+@media(max-width:600px){header h1{font-size:27px}.hero h2{font-size:25px}nav a{display:inline-block;margin:7px}}
+</style>
+</head>
+<body>
+
+<header>
+<div style="font-size:48px">🚜</div>
+<h1>РОЗБОРКА ТРАКТОРІВ ЯРИШІВКА</h1>
+<p>Запчастини до сільськогосподарської техніки</p>
+</header>
+
+<nav>
+<a href="#parts">Запчастини</a>
+<a href="#models">Трактори</a>
+<a href="#contacts">Контакти</a>
+</nav>
+
+<section class="hero">
+<h2>Потрібні запчастини до трактора?</h2>
+<p>Розбираємо трактори та продаємо запчастини.<br>
+МТЗ • ЮМЗ • Т-40 • Т-16 • Т-25</p>
+<p>Допоможемо підібрати потрібну деталь!</p>
+<a class="button" href="#contacts">ЗВ'ЯЗАТИСЯ З НАМИ</a>
+</section>
+
+<section class="container" id="parts">
+<h2 class="section-title">🔧 Каталог запчастин</h2>
+<div class="grid">
+<div class="card"><div class="icon">⚙️</div><h3>Двигуни</h3><p>Двигуни, блоки, головки та комплектуючі.</p></div>
+<div class="card"><div class="icon">🔩</div><h3>Коробки передач</h3><p>КПП, шестерні, вали та інші деталі.</p></div>
+<div class="card"><div class="icon">🚜</div><h3>Мости та редуктори</h3><p>Передні й задні мости, редуктори та комплектуючі.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Гідравліка</h3><p>Гідроциліндри, насоси та гідравлічні вузли.</p></div>
+<div class="card"><div class="icon">🔌</div><h3>Електрообладнання</h3><p>Стартери, генератори та електричні деталі.</p></div>
+<div class="card"><div class="icon">🛞</div><h3>Колеса та диски</h3><p>Колеса, диски й інші комплектуючі.</p></div>
+<div class="card"><div class="icon">🚪</div><h3>Кабіни та кузовні деталі</h3><p>Кабіни, капоти, крила та елементи кузова.</p></div>
+<div class="card"><div class="icon">🔧</div><h3>Інші запчастини</h3><p>Рульове управління, навісне обладнання та різні деталі.</p></div>
+</div>
+</section>
+
+<section class="container" id="models">
+<h2 class="section-title">🚜 Запчастини до тракторів</h2>
+<div class="grid">
+<div class="card"><h3>МТЗ</h3><p>Запчастини та комплектуючі.</p></div>
+<div class="card"><h3>ЮМЗ</h3><p>Деталі та вузли.</p></div>
+<div class="card"><h3>Т-40</h3><p>Запчастини для ремонту.</p></div>
+<div class="card"><h3>Т-16</h3><p>Деталі та комплектуючі.</p></div>
+<div class="card"><h3>Т-25</h3><p>Запчастини та агрегати.</p></div>
+</div>
+</section>
+
+<section class="container" id="contacts">
+<h2 class="section-title">📞 Контакти</h2>
+<div class="info">
+<h3>Розборка тракторів Яришівка</h3>
+<p>📍 Яришівка, Україна</p>
+<p>Потрібна конкретна запчастина? Зателефонуйте нам або напишіть!</p>
+<p><b>Телефон:</b> номер буде додано</p>
+<p>Фотографії та ціни наявних запчастин можна додати до каталогу.</p>
+</div>
+</section>
+
+<footer>
+<p><b>Розборка тракторів Яришівка</b></p>
+<p>Запчастини до МТЗ, ЮМЗ, Т-40, Т-16 і Т-25</p>
+<p class="small">© 2026. Усі права захищені.</p>
+</footer>
+
+</body>
+</html>
